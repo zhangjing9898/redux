@@ -1,6 +1,6 @@
 # redux学习 从原生开始
-今天开始学习了redux，尝试自己的写了一个简单版的redux。
-收获挺大的，对于redux的运用更加熟悉，对整体也有个清晰的脉络。
+之前开发react全家桶，使用了react-redux，对redux和react-redux也只停留在对api的使用，最近读了读源码，尝试自己的写了一个简单版的redux。
+感觉这样收获挺大的，对于redux的运用会更加熟悉，对整体也有个清晰的脉络。
 
 这是一个简单的例子：
 首先是index页面:
@@ -118,4 +118,4 @@ function createStore(reducer) {
     return {dispatch,getState,subscribe}
 }
 ```
-这方面的东西，我感觉查看代码，可读性更加强一些，就放上GitHub地址，里面放了所有跟redux有关以及react-redux有关的code
+这方面的东西，我感觉查看代码，可读性更加强一些，就放上[GitHub地址](https://github.com/zhangjing9898/redux)，里面放了所有跟redux有关以及react-redux有关的code
